@@ -1,0 +1,14 @@
+{
+  "name": "tasks",
+  "version": "1.0.0",
+  "description": "A todo/calendar app for me",
+  "main": "index.js",
+  "repository": "https://github.com/Xenophloxic/tasks.git",
+  "author": "Xenophloxic <robloxkid1548@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "start": "concurrently \"tsc -w\" \"nodemon dist/js/app.js\""
+  }
+}
